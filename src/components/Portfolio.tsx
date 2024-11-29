@@ -1,6 +1,6 @@
 "use-client";
 import Image from "next/image";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import project1 from "../assets/proj1.jpg";
 import project2 from "../assets/proj2.jpg";

@@ -7,11 +7,18 @@ import {
   FaJsSquare,
   FaJava,
   FaGitAlt,
+  FaLinux,
 } from "react-icons/fa";
 import { BiLogoSpringBoot, BiLogoTailwindCss } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiNodejs } from "react-icons/di";
-import { SiMysql, SiChakraui, SiMui } from "react-icons/si";
+import {
+  SiMysql,
+  SiChakraui,
+  SiMui,
+  SiExpress,
+  SiPostman,
+} from "react-icons/si";
 
 const skillIcons = [
   { icon: <FaHtml5 size={140} />, label: "HTML" },
@@ -26,6 +33,10 @@ const skillIcons = [
   { icon: <SiChakraui size={140} />, label: "Chakra UI" },
   { icon: <SiMui size={140} />, label: "Material UI" },
   { icon: <FaGitAlt size={140} />, label: "Git" },
+  { icon: <BiLogoTailwindCss size={140} />, label: "Tailwind CSS" },
+  { icon: <SiExpress size={140} />, label: "Express Js" },
+  { icon: <FaLinux size={140} />, label: "Linux" },
+  { icon: <SiPostman size={140} />, label: "Postman" },
 ];
 
 const Skills = () => {
