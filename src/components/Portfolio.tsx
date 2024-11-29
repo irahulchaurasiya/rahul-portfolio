@@ -56,10 +56,10 @@ const Portfolio = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            initial={{ opacity: 1, y: 75 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.25 }}
+            // initial={{ opacity: 1, y: 75 }}
+            // whileInView={{ opacity: 1, y: 0 }}
+            // viewport={{ once: true }}
+            // transition={{ duration: 0.5, delay: 0.25 }}
             className={`mt-12 flex flex-col ${
               index % 2 === 1 ? "md:flex-row-reverse gap-12" : "md:flex-row"
             }`}
